@@ -65,13 +65,13 @@ async function getDataInCsv() {
                 totalCount += 1
                 var name = info
                 i = i + 1
-                console.log(spans[i].getAttribute('title'))
+                // console.log(spans[i].getAttribute('title'))
                 var time = spans[i].getAttribute('title')
                 localData = [name, time]
                 csvFileData.push(localData);
             }
         }
-        console.log(totalCount)
+        // console.log(totalCount)
         
         var csvFileName = generateName()
 
@@ -95,7 +95,7 @@ async function getDataInCsv() {
             changeWidth.style.cssText = 'height: 500px; width: 400px; opacity: 1; transform: scaleX(1) scaleY(1);'
         } catch (error) {
         }
-        console.log(error)
+        // console.log(error)
         alert("Open whatsapp status viewers list then click on this extension....")
     }
 }
