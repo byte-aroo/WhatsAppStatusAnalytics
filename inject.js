@@ -49,7 +49,7 @@ function generateName() {
 async function getDataInCsv() {
     try {
         var changeWidth = document.querySelector("#app > div > span:nth-child(2) > div > div > div > div")
-        changeWidth.style.cssText = 'height: 9999px; width: 400px; opacity: 0; transform: scaleX(1) scaleY(1);'
+        changeWidth.style.cssText = 'height: 999999999px; width: 400px; opacity: 0; transform: scaleX(1) scaleY(1);'
 
         await sleep(2000)
 
